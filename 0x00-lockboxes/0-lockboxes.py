@@ -7,7 +7,7 @@ Write a method that determines if all the boxes can be opened
 def canUnlockAll(boxes):
     keys = [0]
     open_box = [0]
-    add_key = [0]
+    add_key = True
     while add_key:
         add_key = False
         for key in boxes:
