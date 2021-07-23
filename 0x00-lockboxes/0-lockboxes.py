@@ -5,6 +5,8 @@ Write a method that determines if all the boxes can be opened
 
 
 def canUnlockAll(boxes):
+    if len(boxes) == 0:
+        return True
     keys = [0]
     open_box = [0]
     add_key = True
